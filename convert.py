@@ -31,7 +31,7 @@ if __name__ == '__main__':
                     return twitter
                 else:
                     return "@" + twitter
-            
+
 
 
         def map_rooms(room):
@@ -52,7 +52,8 @@ if __name__ == '__main__':
                             'bio' : talk['bio'],
                             'avatar' : talk['avatar'],
                             'twitter' : set_twitter(talk['twitter']),
-                            'github' : talk['github']
+                            'github' : talk['github'],
+                            'votes' : [""]
                     })
 
                     final_output.update(output)
