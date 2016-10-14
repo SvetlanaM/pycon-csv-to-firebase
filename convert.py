@@ -22,7 +22,15 @@ if __name__ == '__main__':
                 final_time = str(date_parsed.hour) + "." + str(date_parsed.minute)
                 return final_time
 
-        rooms = ['d0206', 'd0207', 'd105', 'a112', 'a113']
+
+        def get_rooms():
+            rooms = []
+            for room in csv.DictReader(csv_file):
+                rooms.append(room['room'])
+            rooms = dict.fromkeys(rooms).keys()
+            return rooms
+
+        rooms = get_rooms()
         final_output = {}
 
         def set_twitter(twitter):
