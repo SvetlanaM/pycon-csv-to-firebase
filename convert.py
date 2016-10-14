@@ -1,5 +1,4 @@
 import json
-import pandas as pd
 import uuid
 import datetime
 import dateutil.parser
