@@ -1,6 +1,7 @@
 import json
 import uuid
 import datetime
+from datetime import timedelta
 import dateutil.parser
 import csv
 
@@ -17,8 +18,10 @@ if __name__ == '__main__':
 
         def get_times(date):
             if date != "":
-                date_parsed = dateutil.parser.parse(date).time()
-                final_time = str(date_parsed.hour) + "." + str(date_parsed.minute)
+                date = date[0:18]
+                new_date = datetime.datetime.strptime(date, '%Y-%m-%d %H:%M:%S')
+                new_date2 = new_date + timedelta(hours = 1)
+                final_time = new_date2.strftime("%I:%M")
                 return final_time
 
 
@@ -60,7 +63,8 @@ if __name__ == '__main__':
                             'avatar' : talk['avatar'],
                             'twitter' : set_twitter(talk['twitter']),
                             'github' : talk['github'],
-                            'votes' : [""]
+                            'votes' : [""],
+                            'active' : True
                     })
 
                     final_output.update(output)
