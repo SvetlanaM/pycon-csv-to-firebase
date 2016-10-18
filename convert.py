@@ -16,12 +16,17 @@ if __name__ == '__main__':
                 final_date = str(date_parsed.day) + "." + str(date_parsed.month) + "." + str(date_parsed.year)
                 return final_date
 
-        def get_times(date):
+        def get_times(date, type):
             if date != "":
                 date = date[0:18]
                 new_date = datetime.datetime.strptime(date, '%Y-%m-%d %H:%M:%S')
-                new_date2 = new_date + timedelta(hours = 1)
-                final_time = new_date2.strftime("%I:%M")
+                if type == "workshop":
+                    new_date2 = new_date + timedelta(hours = 1)
+                elif type == "talk":
+                    new_date2 = new_date + timedelta(hours = 2)
+                else :
+                    new_date2 = new_date + timedelta(hours = 1)
+                final_time = new_date2.strftime("%H:%M")
                 return final_time
 
 
@@ -53,8 +58,8 @@ if __name__ == '__main__':
                             'id' : str(uuid.uuid4()),
                             'start_date' : get_dates(talk['date_start']),
                             'end_date' : get_dates(talk['date_end']),
-                            'start_time' : get_times(talk['date_start']),
-                            'end_time' :  get_times(talk['date_end']),
+                            'start_time' : get_times(talk['date_start'], talk['type']),
+                            'end_time' :  get_times(talk['date_end'], talk['type']),
                             'type' : talk['type'],
                             'title' : talk['title'],
                             'description' : talk['description'],
