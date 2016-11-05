@@ -31,7 +31,7 @@ This code is responsible for sending data in correct format to [Firebase](https:
 ### Database mapping
 For every dictionary key, add value based on the column name in your database. Example of the configuration:
 <pre><code>{
- "room_name" : ""
+ "room_name" : "",
  "active" : true,
  "avatar" : "avatar",
  "bio" : "speaker_bio",
