@@ -28,3 +28,26 @@ This code is responsible for sending data in correct format to [Firebase](https:
   }
 }</code></pre>
 
+### JSON
+<pre><code>{
+  "rooms" : {
+    "room-name" : [ {
+      "active" : true,
+      "avatar" : "url to image",
+      "bio" : "Speaker bio",
+      "description" : "Talk description",
+      "end_date" : "30.10.2016",
+      "end_time" : "09:30",
+      "github" : "github username",
+      "id" : "0ee284ef-8bc6-4bfa-a298-ffdc11b518c6",
+      "speaker" : "Speaker name",
+      "start_date" : "30.10.2016",
+      "start_time" : "09:00",
+      "title" : "Talk name",
+      "twitter" : "twitter username",
+      "type" : "workshop",
+      "votes" : [ "" ]
+      } ]
+     }
+   }</code></pre>
+
