@@ -4,10 +4,14 @@ import datetime
 from datetime import timedelta
 import dateutil.parser
 import csv
+from firebase import Firebase
 
-file_name = input("Enter the name of the csv file: ")
+
+
 
 if __name__ == '__main__':
+    file_name = input("Enter the name of the csv file: ")
+
     with open(file_name + '.csv', 'r') as csv_file:
 
         def get_dates(date):
@@ -29,6 +33,20 @@ if __name__ == '__main__':
                 final_time = new_date2.strftime("%H:%M")
                 return final_time
 
+        def get_end_time(date, type):
+            if date != "":
+                date = date[0:18]
+                new_date = datetime.datetime.strptime(date, '%Y-%m-%d %H:%M:%S')
+                if type == "workshop":
+                    new_date2 = new_date + timedelta(hours = 1.5)
+                elif type == "talk":
+                    new_date2 = new_date + timedelta(hours = 2.5)
+                else :
+                    new_date2 = new_date + timedelta(hours = 1.5)
+                final_time = new_date2.strftime("%H:%M")
+                return final_time
+
+
 
         def get_rooms():
             rooms = []
@@ -47,8 +65,6 @@ if __name__ == '__main__':
                 else:
                     return "@" + twitter
 
-
-
         def map_rooms(room):
             with open('pyconcz_schedule.csv', 'r') as csv_file:
                 output = {room : []}
@@ -59,7 +75,7 @@ if __name__ == '__main__':
                             'start_date' : get_dates(talk['date_start']),
                             'end_date' : get_dates(talk['date_end']),
                             'start_time' : get_times(talk['date_start'], talk['type']),
-                            'end_time' :  get_times(talk['date_end'], talk['type']),
+                            'end_time' :  get_end_time(talk['date_start'], talk['type']),
                             'type' : talk['type'],
                             'title' : talk['title'],
                             'description' : talk['description'],
@@ -71,15 +87,20 @@ if __name__ == '__main__':
                             'votes' : [""],
                             'active' : True
                     })
-
                     final_output.update(output)
+
+
 
     for room in rooms:
         map_rooms(room)
 
+    f = Firebase('https://pycon-630b8.firebaseio.com/')
+    f.child('rooms').set(final_output)
     csv_file.close()
 
     with open('data.json', 'w') as outfile:
         output_json = json.dump(final_output,  outfile, sort_keys = False, indent = 4, ensure_ascii=False)
+
+
 
     print ("Conversion is done")
