@@ -28,26 +28,22 @@ This code is responsible for sending data in correct format to [Firebase](https:
   }
 }</code></pre>
 
-### JSON
+### Database mapping
+For every dictionary key, add value based on the column name in your database. Example of the configuration:
 <pre><code>{
-  "rooms" : {
-    "room-name" : [ {
-      "active" : true,
-      "avatar" : "url to image",
-      "bio" : "Speaker bio",
-      "description" : "Talk description",
-      "end_date" : "30.10.2016",
-      "end_time" : "09:30",
-      "github" : "github username",
-      "id" : "0ee284ef-8bc6-4bfa-a298-ffdc11b518c6",
-      "speaker" : "Speaker name",
-      "start_date" : "30.10.2016",
-      "start_time" : "09:00",
-      "title" : "Talk name",
-      "twitter" : "twitter username",
-      "type" : "workshop",
-      "votes" : [ "" ]
-      } ]
-     }
-   }</code></pre>
+ "room_name" : ""
+ "active" : true,
+ "avatar" : "avatar",
+ "bio" : "speaker_bio",
+ "description" : "talk_desc",
+ "end_date" : "end_date",
+ "end_time" : "end_date",
+ "github" : "github_username",
+ "speaker" : "speaker_name",
+ "start_date" : "start_date",
+ "start_time" : "start_time",
+ "title" : "talk_name",
+ "twitter" : "twitter_username",
+ "type" : "workshop"
+}</code></pre>
 
