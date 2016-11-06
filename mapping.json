@@ -1,0 +1,16 @@
+{
+ "room_name" : "",
+ "active" : true,
+ "avatar" : "avatar",
+ "bio" : "speaker_bio",
+ "description" : "talk_desc",
+ "end_date" : "end_date",
+ "end_time" : "end_date",
+ "github" : "github_username",
+ "speaker" : "speaker_name",
+ "start_date" : "start_date",
+ "start_time" : "start_time",
+ "title" : "talk_name",
+ "twitter" : "twitter_username",
+ "type" : "workshop"
+}
