@@ -48,3 +48,7 @@ For every dictionary key, add value based on the column name in your database. O
  "type" : "workshop"
 }</code></pre>
 
+## ToDo
+1. Import csv files to Amazon S3 Storage
+2. Download csv files from S3
+3. Create django admin interface for managing input/output csv and mapping columns
