@@ -12,7 +12,21 @@ from firebase import Firebase
 if __name__ == '__main__':
     file_name = input("Enter the name of the csv file: ")
 
-    with open(file_name + '.csv', 'r') as csv_file:
+    def change_csv():
+        with open('mapping.json', 'r') as outfile:
+            data_config = json.loads(outfile.read())
+
+        with open(file_name + '.csv', 'rb') as infile, open(file_name + '-out.csv', 'wb') as outfile:
+            reader = csv.reader(infile)
+            writer = csv.writer(outfile)
+            for row in reader:
+                for key, value in enumerate(data_config):
+                    row = [x.replace(value, data_config[value]) if x == data_config[value] else x for x in row]
+                writer.writerow(row)
+
+    change_csv()
+
+    with open(file_name + '-out.csv', 'r') as csv_file:
 
         def get_dates(date):
             if date != "":
@@ -94,8 +108,15 @@ if __name__ == '__main__':
     for room in rooms:
         map_rooms(room)
 
-    f = Firebase('https://pycon-630b8.firebaseio.com/')
+    with open('config.json', 'r') as outfile:
+        data_config = json.loads(outfile.read())
+
+    db_name = data_config["config"]["pycon_db"]
+    f = Firebase('https://pycon-630b8.firebaseio.com/' + db_name + '/')
     f.child('rooms').set(final_output)
+    f.child('main').set(data_config)
+
+
     csv_file.close()
 
     with open('data.json', 'w') as outfile:
