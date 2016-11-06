@@ -14,9 +14,10 @@ This code is responsible for sending data in correct format to [Firebase](https:
 3. Create csv folder in your project
 4. Run code:
    <code>python convert.py</code>
-5. Enter the name of your CSV file (example: pyconcz_schedule).
+5. Enter the name of your CSV file (example: "pyconcz_schedule").
 
 ### Basic config
+This config is used for settings in mobile application.
 <pre><code>{  
   "config":{  
      "pycon_name":"PyCon CZ",
@@ -29,9 +30,9 @@ This code is responsible for sending data in correct format to [Firebase](https:
 }</code></pre>
 
 ### Database mapping
-For every dictionary key, add value based on the column name in your database. Example of the configuration:
+For every dictionary key, add value based on the column name in your database. On the left side, there are final keys, on the right side, there are your database columns. Example of the configuration:
 <pre><code>{
- "room_name" : "",
+ "room_name" : "room1",
  "active" : true,
  "avatar" : "avatar",
  "bio" : "speaker_bio",
