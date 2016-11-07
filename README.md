@@ -30,7 +30,7 @@ This config is used for settings in mobile application. Add code to the [config 
 }</code></pre>
 
 ### Database mapping
-For every dictionary key, add value based on the column name in your database. On the left side, there are final keys, on the right side, there are your database columns. Add code to the [mapping file](https://github.com/SvetlanaM/csvToFirebase-PyConMobileApp/blob/master/mapping.json). Example of the configuration:
+For every dictionary key, add value based on the column name in your database. On the left side, there are final keys, on the right side, there are your database columns. Add code to the [mapping file](https://github.com/SvetlanaM/csvToFirebase-PyConMobileApp/blob/master/mapping.json). It would be appropriate, If you have all your columns in one exported csv file. Example of the configuration:
 <pre><code>{
  "room_name" : "room1",
  "active" : true,
