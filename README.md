@@ -48,6 +48,13 @@ For every dictionary key, add value based on the column name in your database. O
  "type" : "workshop"
 }</code></pre>
 
+### Event types
+You can define these types:
+1. Workshop
+2. Talk
+3. Break
+4. Other (afterparty, lighting talks, ...)
+
 ## ToDo
 1. Import csv files to Amazon S3 Storage
 2. Download csv files from S3
