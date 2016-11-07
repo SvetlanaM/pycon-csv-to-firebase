@@ -50,6 +50,7 @@ For every dictionary key, add value based on the column name in your database. O
 
 ### Event types
 You can define these types:
+
 1. Workshop
 2. Talk
 3. Break
