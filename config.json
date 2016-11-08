@@ -4,6 +4,7 @@
      "pycon_logo":"https://cz.pycon.org/2016/static/img/pyconlogo.svg",
      "pycon_color":"#dedede ",
      "twitter_hashtag":"#pyconcz",
+     "facebook_mention" : "@pyconcz",
      "pycon_db":"pyconcz2016",
      "active":true
   }
