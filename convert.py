@@ -21,7 +21,7 @@ if __name__ == '__main__':
             writer = csv.writer(outfile)
             for row in reader:
                 for key, value in enumerate(data_config):
-                    row = [x.replace(value, data_config[value]) if x == data_config[value] else x for x in row]
+                    row = [x.replace(data_config[value], value) if x == data_config[value] else x for x in row]
                 writer.writerow(row)
 
     change_csv()
@@ -31,7 +31,7 @@ if __name__ == '__main__':
         def get_dates(date):
             if date != "":
                 date_parsed = dateutil.parser.parse(date).date()
-                final_date = str(date_parsed.day) + "." + str(date_parsed.month) + "." + str(date_parsed.year)
+                final_date = str(date_parsed.day) + "." + str(date_parsed.month) + "."
                 return final_date
 
         def get_times(date, type):
@@ -74,13 +74,25 @@ if __name__ == '__main__':
 
         def set_twitter(twitter):
             if twitter != "":
+                for i in twitter:
+                    if i == "/":
+                        twitter = twitter[0:twitter.index(i)]
+                    else:
+                        twitter = twitter
                 if twitter[0] == "@":
                     return twitter
                 else:
                     return "@" + twitter
 
+        def set_event_type(type):
+            new_type = type.lower()
+            if new_type[0] == "A" or new_type[0] == "a":
+                return new_type[2:len(new_type)]
+            else:
+                return new_type
+
         def map_rooms(room):
-            with open('pyconcz_schedule.csv', 'r') as csv_file:
+            with open(file_name + '-out.csv', 'r') as csv_file:
                 output = {room : []}
                 for talk in csv.DictReader(csv_file):
                     if talk['room'] == room:
@@ -90,14 +102,13 @@ if __name__ == '__main__':
                             'end_date' : get_dates(talk['date_end']),
                             'start_time' : get_times(talk['date_start'], talk['type']),
                             'end_time' :  get_end_time(talk['date_start'], talk['type']),
-                            'type' : talk['type'],
+                            'type' : set_event_type(talk['type']),
                             'title' : talk['title'],
                             'description' : talk['description'],
                             'speaker' : talk['speaker'],
                             'bio' : talk['bio'],
                             'avatar' : talk['avatar'],
                             'twitter' : set_twitter(talk['twitter']),
-                            'github' : talk['github'],
                             'votes' : [""],
                             'active' : True
                     })
