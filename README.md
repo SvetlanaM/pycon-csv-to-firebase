@@ -17,7 +17,7 @@ This code is responsible for sending data in correct format to [Firebase](https:
 5. Enter the name of your CSV file (example: "pyconcz_schedule").
 
 ### Basic config
-This config is used for settings in mobile application.
+This config is used for settings in mobile application. Add code to the [config file](https://github.com/SvetlanaM/csvToFirebase-PyConMobileApp/blob/master/config.json).
 <pre><code>{  
   "config":{  
      "pycon_name":"PyCon CZ",
@@ -30,21 +30,31 @@ This config is used for settings in mobile application.
 }</code></pre>
 
 ### Database mapping
-For every dictionary key, add value based on the column name in your database. On the left side, there are final keys, on the right side, there are your database columns. Example of the configuration:
+For every dictionary key, add value based on the column name in your database. On the left side, there are final keys, on the right side, there are your database columns. Add code to the [mapping file](https://github.com/SvetlanaM/csvToFirebase-PyConMobileApp/blob/master/mapping.json). It would be appropriate, If you have all your columns in one exported csv file. Example of the configuration:
 <pre><code>{
- "room_name" : "room1",
+ "room" : "room",
  "active" : true,
  "avatar" : "avatar",
- "bio" : "speaker_bio",
- "description" : "talk_desc",
- "end_date" : "end_date",
- "end_time" : "end_date",
- "github" : "github_username",
- "speaker" : "speaker_name",
- "start_date" : "start_date",
- "start_time" : "start_time",
- "title" : "talk_name",
- "twitter" : "twitter_username",
- "type" : "workshop"
+ "bio" : "More information about you (public)",
+ "description" : "Abstract (public)",
+ "github" : "",
+ "speaker" : "Your full name",
+ "date_start" : "time",
+ "date_end" : "time_end",
+ "title" : "Title",
+ "twitter" : "Your Twitter User-name/github account",
+ "type" : "What are you proposing?"
 }</code></pre>
 
+### Event types
+You can define these types:
+
+1. Workshop
+2. Talk
+3. Break
+4. Other (afterparty, lighting talks, ...)
+
+## ToDo
+1. Import csv files to Amazon S3 Storage
+2. Download csv files from S3
+3. Create django admin interface for managing input/output csv and mapping columns
