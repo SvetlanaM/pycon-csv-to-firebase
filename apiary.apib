@@ -1,0 +1,87 @@
+FORMAT: 1A
+HOST: https://pycon-630b8.firebaseio.com/
+
+# PyCon mobile api
+
+PyCon mobile app is app for PyCon confereces running on Firebase database.
+
+## Config Collection [/db_name]
+
+### Config [PUT]
+
++ Request (application/json)
+        {
+            "config":{
+                "pycon_name":"PyCon CZ",
+                "pycon_logo":"https://cz.pycon.org/2016/static/img/pyconlogo.svg",
+                "pycon_color":"#dedede ",
+                "twitter_hashtag":"#pyconcz",
+                "pycon_db":"pyconcz2016",
+                "active":true
+            }
+        }
+
++ Response 201 (application/json)
+    + Headers
+            Location: /db_name/main/config
+    + Body
+    
+        "pycon_cz2016" : {
+            "main" : {
+                "config" : {
+                "active" : true,
+                "facebook_mention" : "",
+                "pycon_color" : "#b4beff",
+                "pycon_db" : "pycon_cz2016",
+                "pycon_logo" : "https://trello-attachments.s3.amazonaws.com/52589bca65b0b14e1d004d94/581efa2dafc1d1f2ca807a35/f44473ed86ab7b29c2cf8eae9653d9d4/pycon_overlay_(1).png",
+                "pycon_name" : "PyCon CZ 2016",
+                "twitter_hashtag" : "#pyconcz"
+            }
+        }
+
+### Update/Create conference information [PUT]
+
++ Request (application/json)
+
+        {
+         "room" : "room",
+         "active" : true,
+         "avatar" : "avatar",
+         "bio" : "More information about you (public)",
+         "description" : "Abstract (public)",
+         "github" : "",
+         "speaker" : "Your full name",
+         "date_start" : "time",
+         "date_end" : "time_end",
+         "title" : "Title",
+         "twitter" : "Your Twitter User-name/github account",
+         "type" : "What are you proposing?"
+}
+
++ Response 201 (application/json)
+
+    + Headers
+
+            Location: /db_name/rooms/room_name
+
+    + Body
+
+            "rooms" : {
+                "a112" : [ {
+                    "active" : true,
+                    "avatar" : "https://cz.pycon.org/2016/media/proposals/pyconcz2016/talks/pviktori.png",
+                    "bio" : "Python fan, meetup organizer, PyLadies mentor. Leads the Python Maintenance team at Red Hat.",
+                    "description" : "Python can power websites, software systems, games, computations, and a lot more of what happens behind a computer screen. But can it leave the computer world and do something \"real\"?\r\nMicroPython is a special version of Python, made to fit on devices small enough to fit in your hand and cheap enough to experiment with, without you worrying about damaging them.\r\nWith a couple of wires and electronic components, and a few lines of Python, you can turn motors, blink lights, measure temperatures or distances -- and eventually build all kinds of controllers, robots, toys, and other devices.\r\nThis workshop is a beginner-level introduction into the hardware world. We'll connect a microcontroller board to a computer and put on a colorful LED light show.\r\nIf you know variables and if/for/while statements, you know enough Python to participate.\r\nYou will need a computer with administrator access (to install the necessary drivers).",
+                    "end_date" : "30.10.",
+                    "end_time" : "09:30",
+                    "id" : "67715ec8-fd89-49d8-8139-3ad63fee0054",
+                    "speaker" : "Petr Viktorin",
+                    "start_date" : "30.10.",
+                    "start_time" : "09:00",
+                    "title" : "Turn On the Lights with MicroPython",
+                    "twitter" : "@encukou",
+                    "type" : "workshop",
+                    "votes" : [ "" ]
+                } 
+            ]
+        }
