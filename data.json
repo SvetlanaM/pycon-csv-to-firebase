@@ -1,383 +1,579 @@
 {
-    "default": [
+    "Main": [
         {
-            "bio": "i am studying towards an electronic engineering degree at  national university of science and technology and currently in my fourth year. i am an intern at Afrosoft. I am a self motivated programmer who ranks python as my favourite language. i live in mutare . I love teaching other people programming. I love technology and hope to contribute in any way possible to the python community.", 
-            "description": "I would be talking about the advantages of using kivy for mobile application development . I would show how to develop the application through code snippets,  install kivy via pip, show the basic architecture of kivy and the basic components of kivy like widgets.", 
-            "end_date": "21.10.", 
-            "start_time": "12:50", 
+            "bio": "", 
+            "description": "Esta charla es para gente que sabe acerca de Django CMS y quisiera aprender m´as, as´ı como otros que estan buscando una soluci´on CMS. La sesi´on incluir´a un mini-tour, as´ı como una inmersi´on profunda en sus caracter´ısticas principales.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
             "active": true, 
-            "id": "7cdea0d8-3395-473a-9a99-c5b919db12b3", 
-            "votes": [
-                ""
-            ], 
-            "twitter": "@wendinoda", 
-            "title": "Developing hybrid applications with kivy", 
-            "speaker": "wendinoda washaya", 
-            "end_time": "13:20", 
-            "type": "talk", 
-            "start_date": "21.10.", 
-            "avatar": ""
-        }, 
-        {
-            "bio": "Mike Place is on the core engineering team for SaltStack -- one of the largest Python-based OSS projects in the world.", 
-            "description": "This workshop will explain how to use SaltStack to manage and deploy your Python-based applications. We'll give an overview of Salt and learn how to use Salt's configuration management engine to keep servers running and configured and provide a repeatable automation pipeline for your systems. Best of all, we'll talk about how to extend Salt with Python to automate just about anything.", 
-            "end_date": "21.10.", 
-            "start_time": "12:50", 
-            "active": true, 
-            "id": "f5229725-4a87-445f-b10a-13a47925805c", 
-            "votes": [
-                ""
-            ], 
-            "twitter": "@cachedout", 
-            "title": "Automation with SaltStack", 
-            "speaker": "Mike Place", 
-            "end_time": "13:20", 
-            "type": "workshop or tutorial", 
-            "start_date": "21.10.", 
-            "avatar": ""
-        }, 
-        {
-            "bio": "Business Developer and an Python Enthusiastic", 
-            "description": "Present on the advantages of GUI in python and its importance", 
-            "end_date": "21.10.", 
-            "start_time": "12:50", 
-            "active": true, 
-            "id": "fc0d6caf-8d7c-4c38-a470-312db6a9d0b5", 
-            "votes": [
-                ""
-            ], 
-            "twitter": "@tatekevvy", 
-            "title": "Importance of GUI in fields of Statistics, Accounting, Business Environments", 
-            "speaker": "Kelvin Mudzimuirema", 
-            "end_time": "13:20", 
-            "type": "workshop or tutorial", 
-            "start_date": "21.10.", 
-            "avatar": ""
-        }, 
-        {
-            "bio": "Petrus started out as a Mechanical Engineer, then turned into a Software Developer, and now he's an Entrepreneur, selling groceries via an Android app which is aimed at emerging-market consumers. He lives in Cape Town, with his wife and baby girl.", 
-            "description": "Python is fun. But becoming a great software developer can be a long, hard and intimidating process without the right support.\n\nIn this talk I want to highlight some of the best resources that I have found for learning to code and then mastering specific topics. The aim is for everyone to walk away with a better understanding of where to start and how to keep going when it comes to planning a career in software development.", 
-            "end_date": "21.10.", 
-            "start_time": "12:50", 
-            "active": true, 
-            "id": "5d42c322-c80f-4092-bd5f-905af21d977a", 
-            "votes": [
-                ""
-            ], 
-            "twitter": "@petrusjvr", 
-            "title": "From Zero to Ninja - how to master software development with Python", 
-            "speaker": "Petrus Janse van Rensburg", 
-            "end_time": "13:20", 
-            "type": "talk", 
-            "start_date": "21.10.", 
-            "avatar": ""
-        }, 
-        {
-            "bio": "...same as for previous submission", 
-            "description": "In this talk I will describe my own experience of building out the tech stack for a mobile e-commerce startup. It will cover: \n• an overview of the main design challenges \n• the chosen architecture (database, server-side application layer, API and mobile client) \n• how I used Flask to build the API \n• how I used Flask-Admin to build a management console.", 
-            "end_date": "21.10.", 
-            "start_time": "12:50", 
-            "active": true, 
-            "id": "1afe8ee2-c425-409f-9c63-57870f868abe", 
-            "votes": [
-                ""
-            ], 
-            "twitter": "@petrusjvr", 
-            "title": "Selling groceries online using Postgres, Flask, Docker & Android", 
-            "speaker": "Petrus Janse van Rensburg", 
-            "end_time": "13:20", 
-            "type": "talk", 
-            "start_date": "21.10.", 
-            "avatar": ""
-        }, 
-        {
-            "bio": "\nI not only write code, but as long as I can remember. I have been writing, writing a lot :). I also am a very good public speaker who speaks well and from the heart. This passion for speaking has resulted in me participating a lot in debates and many public speaking events. I like to speak on issues that affect the minors in society (no cliche!)\n\nI am very outgoing and I truly believe that the best information comes from the greatest resource we have on this earth - people.I believe in the power of interpersonal skills and I learn everyday how to perfect it.\n\nI love my life, I love my job.\n\n\nCheck my blog at\n\nslanderous.blogspot.com", 
-            "description": "A brief talk on the power of python in the workplace. From automating routine tasks,demos of scripts I've written to cut down on time taken. Data analysis, fun things and a brief intro to python with machine learning. ", 
-            "end_date": "21.10.", 
-            "start_time": "12:50", 
-            "active": true, 
-            "id": "76871363-4485-41d3-a3ab-1553642722e8", 
-            "votes": [
-                ""
-            ], 
-            "twitter": "@simakk", 
-            "title": "Automate!", 
-            "speaker": "Shingirayi Innocent Mandebvu", 
-            "end_time": "13:20", 
-            "type": "talk", 
-            "start_date": "21.10.", 
-            "avatar": ""
-        }, 
-        {
-            "bio": "I am a lecturer within the School of Computing at the University of Namibia. I mostly specialise in Computer Networks and Information Systems. Within the sphere of Information Systems my colleagues and I investigate how software can be designed for African contexts. Further, we also study the impact of technology on rural communities. I am passionate about PyCon's as they provide an opportunity to interact with people along the software life cycle.", 
-            "description": "In the world of technology we often tend to focus on the technical aspects of software products. However we tend to neglect the main component that determines whether a software application / artifact is a success or failure: the user. Within this talk I will be going through three (3) commands that I live by when working on software projects and they all revolve around principles of USER CENTERED DESIGN. This talk is aimed at everyone from beginners to Experts.", 
-            "end_date": "21.10.", 
-            "start_time": "12:50", 
-            "active": true, 
-            "id": "b90ea315-af90-4867-963d-514f3229b2b1", 
-            "votes": [
-                ""
-            ], 
-            "twitter": "@shingapi", 
-            "title": "UX Design: For Developers or Nah?", 
-            "speaker": "Gabriel Tuhafeni Nhinda", 
-            "end_time": "13:20", 
-            "type": "talk", 
-            "start_date": "21.10.", 
-            "avatar": ""
-        }, 
-        {
-            "bio": "Tendai Marengereke is an Information Security professional with significant experience and expertise in Areas of Information Security, Computer Forensics. He is also a lecturer at Harare Institute of Technology and he is passionate about  Python. ", 
-            "description": "The talk is on Reproducible Research in Python. The goal of reproducible research is to tie specific instructions to data analysis and experimental data so that scholarship can be recreated, better understood and verified. Often projects are created and kept but it is hard to replicate the results or follow the path used by a researcher. This talk will be on how to achieve reproduciblity  in Python. ", 
-            "end_date": "21.10.", 
-            "start_time": "12:50", 
-            "active": true, 
-            "id": "c649c21c-5c1a-4c85-95e2-582cd5509025", 
-            "votes": [
-                ""
-            ], 
-            "twitter": "@marengz", 
-            "title": "Reproducible Research in Python", 
-            "speaker": "Tendai Marengereke", 
-            "end_time": "13:20", 
-            "type": "talk", 
-            "start_date": "21.10.", 
-            "avatar": ""
-        }, 
-        {
-            "bio": "Ziyaad Parker is currently the Data Manager for the Computational Biology Department at the University of Cape Town. In this position he is primarily responsible for developing the database archive, which will be used as a repository for all submissions of data by H3Africa groups to EGA. With support of the Data Management Task Force, he will also help develop tools that allow users to search this data in order to plan future projects. Ziyaad is a graduate of UCT and brings valuable skills to the department. To facilitate the project, he is in the process of developing an interactive Archive Web Portal. The portal intends to track all the progress of the data submissions. This will require the development of a front-end user interface as well as back-end. The technologies that will be used for the front-end are HTML, CSS, JavaScript and Bootstrap. Back-end technologies include Python, the Django Web Framework, Python with a range of libraries, PostgreSQL and Ubuntu. He will maintain the security of the system, support users with data submission and facilitate the data transfer. Making the data available via an online catalogue for users to have a user friendly interface to search, extract, report and visualize the data. Example searching for a disease in a certain country.  ", 
-            "description": "The NIH and Welcome Trust have funded multiple projects on genomic research and data is required to be deposited into a public domain. The European Genome-phenome Archive (EGA) is the repository for sequence and genotype data where the Data access is controlled by access committees. \n\nAccess is determined by a formal application procedure for the purpose of secure storage and distribution. Informed consents are required for specifying controlled release requirements. Researchers from the H3Africa data generating projects based in Africa can benefit tremendously from the data sharing capabilities of the internet by using the appropriate technologies. The H3Africa Data Archive is the effort between the H3Africa data generating projects, H3ABionet and the EGA. \n\n\nTo facilitate the project, H3ABionet is in the process of developing an interactive Archive Web Portal. The portal intends to track all the progress of the data submissions. This will require the development of a front-end user interface as well as back-end. The technologies that will be used for the front-end are HTML, CSS, JavaScript and Bootstrap. The Django Web Framework, Python with a range of libraries, PostgreSQL and Ubuntu will be used for the back-end. H3ABionet will maintain the security of the system, support users with data submission and facilitate the data transfer.\n\n\nThis will enable users the opportunity to submit their data and keep track of their submission status. The goal is to ensure efficient data flow between researchers, the archive and the EGA. 9 months after the data is in secure storage, H3ABionet will convert the data into an XML format ready for submission to EGA.", 
-            "end_date": "21.10.", 
-            "start_time": "12:50", 
-            "active": true, 
-            "id": "a202cb7e-71a7-407f-b3aa-49c788b0f491", 
+            "id": "dfaf7354-5b4d-4af0-a7fa-573495769503", 
             "votes": [
                 ""
             ], 
             "twitter": null, 
-            "title": "H3Africa Data Archive", 
-            "speaker": "Ziyaad Parker", 
-            "end_time": "13:20", 
-            "type": "poster", 
-            "start_date": "21.10.", 
+            "title": "Creando paginas web con Django CMS", 
+            "speaker": "Paulo Alvarado", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
             "avatar": ""
         }, 
         {
-            "bio": "Achim is a self taught Full stack python developer, a .Net fanatic, a UI/UX designer who dreams elegant design, passionate gamer, style and fitness addict and just a great person to talk to.", 
-            "description": "i will be talking about full stack development with major emphasis on the development of a scale able base for web applications with RESTful APIs using the Flask micro-framework.", 
-            "end_date": "21.10.", 
-            "start_time": "12:50", 
+            "bio": "", 
+            "description": "Alexa, la asistente personal de Amazon fue la clara ganadora de ´este ´ultimo CES. En esta charla aprenderemos c´omo crear diferentes Skills para interactuar con ella y as´ı poder extender la funcionalidad que ofrece.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
             "active": true, 
-            "id": "6df3e8d2-ce08-47fc-944e-82b79e85dcaf", 
-            "votes": [
-                ""
-            ], 
-            "twitter": "@achim_munene", 
-            "title": "Flask for the REST of Us", 
-            "speaker": "Achim munene", 
-            "end_time": "13:20", 
-            "type": "talk", 
-            "start_date": "21.10.", 
-            "avatar": ""
-        }
-    ], 
-    "main": [
-        {
-            "bio": "Mike Place is on the core engineering team at SaltStack -- one of the largest open-source Python projects in the world.", 
-            "description": "What's the best way to file a bug? What are some of the things you should *never* do when sending in a bug fix? What's the best way to structure a feature request to maximize the likelihood that it will get accepted? How can you find a way to help in a large project that might seem intimidating? In this talk, we'll hear advice from a maintainer of one of the world's largest Python open-source project about what you should (and shouldn't) do to contribute.", 
-            "end_date": "21.10.", 
-            "start_time": "12:50", 
-            "active": true, 
-            "id": "08758e6a-4878-43a3-a2c8-c46944c86900", 
-            "votes": [
-                ""
-            ], 
-            "twitter": "@cachedout", 
-            "title": "Best Practices for Contributing to Open Source", 
-            "speaker": "Mike Place", 
-            "end_time": "13:20", 
-            "type": "talk", 
-            "start_date": "21.10.", 
-            "avatar": ""
-        }, 
-        {
-            "bio": "I'm a lead programmer for OPEXA, a Zimbabwean based start-up that specializes in developing administration systems and applications geared towards the financial sector. Over the past couple years, my focus has come to center around Django, Kivy and Blockchains, driven primarily by a love of Python and the urge to discover all of its potential.", 
-            "description": "During this workshop I'll like to introduce everyone to the wonders of Kivy, a single platform to develop for Windows, Linux, Android or iOS, though my focus will primarily be on Android development. This tutorial will demonstrate to how powerful a tool Kivy can be in making elegant, simple applications.\n\nMy tutorial would cover several essential basic concepts and walk attendees through the process of setting up and running Kivy in a Linux environment. Attention would also be paid to describing techniques for laying out the structure of a project, the various widgets and their basic functionality as well as some quirks they might encounter, basic design and styling of GUI elements and storing and retrieving information on the device (for which I have a rudimentary library, based on Django's implementation of Models, developed during the course of my own work that I'd be happy to share).\n\nFinally, I would also demonstrate how to test and debug the code on a live Android device and create an apk using Buildozer, with some special attention accorded to including assets (specifically images and custom fonts) when packaging the application. Whilst I do not think this would be a process attendees could do themselves due to the amount of time it takes to initially set up Buildozer, they'll leave confident that they can turn their beautiful code into even more amazing real-world solutions.", 
-            "end_date": "21.10.", 
-            "start_time": "12:50", 
-            "active": true, 
-            "id": "41444e20-4349-4646-a93c-577e98586141", 
+            "id": "01947423-2bfc-4729-b0a0-4a80d77f7bde", 
             "votes": [
                 ""
             ], 
             "twitter": null, 
-            "title": "Kivy: From Zero to Android", 
-            "speaker": "Tatenda. K. Tambo", 
-            "end_time": "13:20", 
-            "type": "workshop or tutorial", 
-            "start_date": "21.10.", 
-            "avatar": ""
-        }, 
-        {
-            "bio": "I am an electronics electrical engineering student of the Obafemi Awolowo University .\nI am a core Python Web, Networking, Games and IOT programmer.. Coordinator of Python Club OAU. Organizer of DjangoGirls OAU.", 
-            "description": "What are the secrets to getting the most out of Python as a student, a teacher or even an educational institution? Python and some of its third party tools use and provide some tools which when critically looked at would ease the static-ness and redundant approach of handling education and educational materials in not just Nigeria but the continent(Africa) as a whole.\n\nThis talk will consider two concepts generally relating to education and then highlight where Python comes in within each of them. I would then go ahead and state achievements made in education with Python. These concepts although quite general have helped me come to understand both the concepts of education, and Python in general.   1. Learning/Studentship :The core idea behind being a student is learning. At one point or another(or even most points in life), we're learning things. Also for everyone or anyone who calls him/herself a programmer, learning new,strange and sometimes frustrating technologies has become a thing to be familiar with. In an average Nigerian setting learning is not as efficient and easy as it should be. As a student myself often time I only read to pass examinations. In most cases students aren’t interested in the concepts or ideas behind what is being thought. Thats where Python comes in. For an ardent, serious student, Python could be not only as a tool for visualization (Mayavi,VisPy,mlab etc), calculations(numpy, math, cmath etc) but also as an enriching tool for academic breakthrough.   2. Teaching : Teaching is a lot more crucial than learning. This is because teaching determines what the student knows or doesn't know. Computer programming as a discipline has over the years grown to an extent that it is now bargained to be taught as a stand alone course in some institutions.  In most developed and advanced educational systems, the importance of students programming a computer has been emphasized to teachers, and as such most teachers have in one way or the other taken steps to learn computer programming in order to aid their teaching activities. This has reflected in quite a significant increase in academic performance for most students with such teachers. A teacher with a \"programming mind\" is a teacher with an upper edge and a teacher ready to solve problems for his/her students.  3. Introduce the audience to Python Club OAU.  ", 
-            "end_date": "21.10.", 
-            "start_time": "12:50", 
-            "active": true, 
-            "id": "6cfb8a30-1e7c-4a28-bf2f-9b6c0a30a84f", 
-            "votes": [
-                ""
-            ], 
-            "twitter": "@Olamyy_Fadil", 
-            "title": "Python, Education and Africa", 
-            "speaker": "Olamilekan Wahab", 
-            "end_time": "13:20", 
+            "title": "Creando Skills para Alexa", 
+            "speaker": "Juli´an Amaya", 
+            "end_time": "13:30", 
             "type": "talk", 
-            "start_date": "21.10.", 
+            "start_date": "16.2.", 
             "avatar": ""
         }, 
         {
-            "bio": "Charles is a CIS-Graduate. He has worked as an Accountant & the dreaded profession of Auditor with over 5 years in Industry. He writes his code in either PHP or Python. He is very happy when setting up innovative web applications.", 
-            "description": "Taking a new look at how a Stock Take can be conducted, with more accuracy, efficiency and speed.", 
-            "end_date": "21.10.", 
-            "start_time": "12:50", 
+            "bio": "", 
+            "description": "Micropython es un proyecto que est´a enfocado en portar Python a microcontroladores para poder tener un f´acil uso y programaci´on, se mostrar´a en la charla las ventajas y desventajas de micropython los usos a futuro y el estado del soporte de distintos microcontroladores.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
             "active": true, 
-            "id": "c445d286-d592-4a19-afd5-a46999ca5f51", 
-            "votes": [
-                ""
-            ], 
-            "twitter": "@charle-k", 
-            "title": "Stocktaking, harnessing code in businesss", 
-            "speaker": "Katuri Charles", 
-            "end_time": "13:20", 
-            "type": "workshop or tutorial", 
-            "start_date": "21.10.", 
-            "avatar": ""
-        }, 
-        {
-            "bio": "Katuri Charles is a qualified accountant, who has the ability to code. Currently working on his own site http://www.kunet.co.zw and always forever learning the changes in coding environment.", 
-            "description": "How African organisations could be harnessing custom coding solutions in pursuit of increasing efficiency, effectiveness & economy.  Will present case studies of possible opportunities for using code in everyday life", 
-            "end_date": "21.10.", 
-            "start_time": "12:50", 
-            "active": true, 
-            "id": "c7108ff9-d428-4941-b255-f602e21e2ffc", 
-            "votes": [
-                ""
-            ], 
-            "twitter": "@charle-k", 
-            "title": "Coding - A paradigm shift in the use of coding technology in African Organisations", 
-            "speaker": "Katuri Charles", 
-            "end_time": "13:20", 
-            "type": "talk", 
-            "start_date": "21.10.", 
-            "avatar": ""
-        }, 
-        {
-            "bio": "I am a Python/Django Developer, ICT Consultant, Django Girls Harare/Masvingo organiser and a Python enthusiast. ", 
-            "description": "Zimbabwe currently has a very high literacy rate of over 90%, despite a very high literacy rate of 90%. While other countries are looking for skilled workers, the opposite is true for Zimbabwe, which has millions of skilled workers looking for employment. Fortunately, the Internet has turned the world into a global village, yes, everyone is talking about globalization! In my talk, I intend to share on the avenues of freelancing and remote working as possible employment/business opportunity for the ordinary, unemployed person in Zimbabwe. I will share on the benefits of both to the developer as well as the nation. I will also share on how to get started as a freelancer or remote worker, with the aim of presenting new and possible employment/entrepreneurship avenues for fellow developers in Zimbabwe.", 
-            "end_date": "21.10.", 
-            "start_time": "12:50", 
-            "active": true, 
-            "id": "2cc7898c-993f-46d8-81af-70d936aa8ed1", 
-            "votes": [
-                ""
-            ], 
-            "twitter": "@amakarudze", 
-            "title": "Freelance or Remote Working or Both?", 
-            "speaker": "Anna Makarudze", 
-            "end_time": "13:20", 
-            "type": "talk", 
-            "start_date": "21.10.", 
-            "avatar": ""
-        }, 
-        {
-            "bio": "I am an intern developer at Siege Communications www.siegecommunications.com. I have been a system administrator for more than 5 years and recently decided to make the switch to full time development", 
-            "description": "1. How new programmers can quickly assimilate new corporate culture and best practices through overcoming the impostor syndrome and fostering a growth mindset ", 
-            "end_date": "21.10.", 
-            "start_time": "12:50", 
-            "active": true, 
-            "id": "f7d2d296-0806-446d-b44d-d61fcb50a676", 
+            "id": "320d9f4d-5849-446f-8d81-88a61648e09d", 
             "votes": [
                 ""
             ], 
             "twitter": null, 
-            "title": "A noob amongst the Pros (Dealing with the fears beginner programmers have when working with the experts)", 
-            "speaker": "Matembudze Bornwell", 
-            "end_time": "13:20", 
+            "title": "Python en microcontrolodaroes con Micropython", 
+            "speaker": "Gustavo Angulo", 
+            "end_time": "13:30", 
             "type": "talk", 
-            "start_date": "21.10.", 
+            "start_date": "16.2.", 
             "avatar": ""
         }, 
         {
-            "bio": "I am a PhD in Finance student with Witwatersrand Business School, a full time lecturer at Bindura University of Science Education in the Banking and Finance Department. I am an enthusiast in the field of financial analytics and artificial intelligence.", 
-            "description": "The need to embrace artificial intelligence technology for the build up of Zimbabwe. Talk will touch on possible AI application domains in Zimbabwe. ", 
-            "end_date": "21.10.", 
-            "start_time": "12:50", 
+            "bio": "", 
+            "description": "El video es un tipo de informaci´on que ha crecido de una manera exponencial debido a las facilidades de hoy en d´ıa de grabar video usando dispositivos m´oviles, e igualmente al uso de plataformas como Youtube, Instagram o Snapchat, que han permitido propagar este tipo de informaci´on a nivel mundial. Por ello, es necesario realizar herramientas de auto tag para que la b´usqueda de la informaci´on sea mucho m´as r´apida, poniendo a algoritmos capaces de detectar las actividades que se est´an realizando el video y hacer la respectiva categorizaci´on de forma autom´atica. Para cumplir con este objetivo, se deben tener en cuenta t´ecnicas de visi´on por computador y machine learning (deep learning) que ser´an explicadas durante esta charla", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
             "active": true, 
-            "id": "f54ffbfb-6128-463b-82e4-4e32ea6a8344", 
+            "id": "00dd6ebe-19a1-4f30-a000-954b9af3250b", 
             "votes": [
                 ""
             ], 
-            "twitter": "@dennis_dtmureka", 
-            "title": "Be a Game Changer !!!", 
-            "speaker": "Dennis Murekachiro", 
-            "end_time": "13:20", 
+            "twitter": null, 
+            "title": "Detailed high-level semantic understanding of natural human activities in videos", 
+            "speaker": "Wayner Barrios", 
+            "end_time": "13:30", 
             "type": "talk", 
-            "start_date": "21.10.", 
+            "start_date": "16.2.", 
             "avatar": ""
         }, 
         {
-            "bio": "Amanda Gelender is the Senior Manager of Social Impact at GitHub, the world’s largest open source community. She oversees GitHub’s flagship social impact projects including ConnectHome, a public-private partnership with the US Department of Housing and Urban Development to end the digital divide in US government-assisted and public housing. Amanda is currently building out flagship programming and partnerships for GitHub on the continent of Africa, with efforts based out of Lagos, Nigeria.\n\nAmanda is a writer and mental health advocate with 14 years of experience in social change work across sectors. She formerly worked at the Kapor Center for Social Impact, the American Civil Liberties Union of Northern California, and as the Director of Strategy & Innovation at Vaya Consulting, a firm dedicated to supporting tech companies with diversity and inclusion efforts. Amanda graduated from Stanford University with Honors, receiving the Stanford Award of Excellence, the Louis Sudler Prize for Excellence in the Arts, and the Robert M. Golden Medal for Excellence in Humanities and Creative Arts.", 
-            "description": "Open source technology is catalyzing social change across the globe. In this keynote session, Amanda Gelender, GitHub's Senior Manager of Social Impact, will discuss the importance of lowering barriers to entry in technology innovation. You’ll walk away with an understanding of how developers can utilize their skills by contributing to open source projects that are creating waves of powerful change in communities across the globe.", 
-            "end_date": "21.10.", 
-            "start_time": "12:50", 
+            "bio": "", 
+            "description": "In this talk the author introduces the basics of data pipelines in the context of Data Engineer and Data Science. Then he describes Luigi, a Python based framework for building Data Pipelines of Batch Processes.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
             "active": true, 
-            "id": "4491df1f-f03b-4013-824f-7e5a32520ec5", 
+            "id": "0b7e7538-f3d9-46e6-ac0d-35dabffe5363", 
             "votes": [
                 ""
             ], 
-            "twitter": "@agelender", 
-            "title": "Social Impact and Open Source: How Developers Can Drive Change ", 
-            "speaker": "Amanda Gelender", 
-            "end_time": "13:20", 
-            "type": "something completely different", 
-            "start_date": "21.10.", 
-            "avatar": ""
-        }, 
-        {
-            "bio": "Community Manager of B2C Coworking, Andrew is passionate about digital capacity development and the future of technology in Africa. He started B2C Coworking in June 2016 and has worked hard alongside several corporate partners to sustain it. Batanai to Create (B2C) means “Collaborate to Create”: it is Zimbabwe’s fastest growing innovation hub with over 20 startups under incubation. B2C also runs several ICT based programs that include Yali Creatives, Google Developer Groups, Digital Design training and Africa Code Week. Google Developer Groups Regional Mentor for Southern Africa (2016-2017), Andrew holds a Bachelors Degree in Electronic Commerce from the Harare Institute of Technology. ", 
-            "description": "An introduction to the future of web apps (Progressive Web Apps). With the introduction of several new Web APIs leveling the playing field for web apps to native apps. The web and native mobile apps are about to go on a head to head battle of user experience.", 
-            "end_date": "21.10.", 
-            "start_time": "12:50", 
-            "active": true, 
-            "id": "217c0652-8c3b-4746-8945-a4106a050cb1", 
-            "votes": [
-                ""
-            ], 
-            "twitter": "@andySitholeZW", 
-            "title": "Progressive Web Apps", 
-            "speaker": "Andrew", 
-            "end_time": "13:20", 
+            "twitter": null, 
+            "title": "Building Data Pipelines with Python", 
+            "speaker": "Miguel Cabrera", 
+            "end_time": "13:30", 
             "type": "talk", 
-            "start_date": "21.10.", 
+            "start_date": "16.2.", 
             "avatar": ""
         }, 
         {
-            "bio": "Humphrey is a Python, Django developer.", 
-            "description": "A workshop/tutorial for Python/Django developers who would like to contribute more to the projects they use, but need more grounding in some of the tools required. The workshop will take participants through the complete cycle of identifying a simple issue in a Django or Python project, writing a patch with documentation, and submitting it.", 
-            "end_date": "21.10.", 
-            "start_time": "12:50", 
+            "bio": "", 
+            "description": "Julia is a new exciting language for numerical and scientific computation. The aim for this talk is to introduce Julia as a friendly companion to Python in the areas of applied math and numerical evaluation.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
             "active": true, 
-            "id": "cffbdcaf-cb66-4cda-a2f2-8cef88d18bd3", 
+            "id": "fd92475e-cd4e-466c-acdc-c9b8bda0e68b", 
             "votes": [
                 ""
             ], 
-            "twitter": "@hamub", 
-            "title": "Don`t be afraid to commit!", 
-            "speaker": "Humphrey Butau", 
-            "end_time": "13:20", 
-            "type": "workshop or tutorial", 
-            "start_date": "21.10.", 
+            "twitter": null, 
+            "title": "An introduction to Julia", 
+            "speaker": "David Cardozo", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "It will be a short version of author’s class https://github.com/albahnsen/PracticalMachineLearningClass, using Jupyter notebooks", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "e42a5b31-3c0d-4fa3-a0bb-9059ebab5e38", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Practical Machine Learning with Scikit-Learn", 
+            "speaker": "Alejandro Correa", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "In this talk the author will describes how Python is central to the success of DESI (Dark Energy Spectroscopic Instrument), a state-of-the-art observational cosmology experiment designed to map the Universe with unprecedented accuracy and detail.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "b9453895-e5f9-4927-90cf-a0b6c0a4029e", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Mapping the Universe with Python", 
+            "speaker": "Jaime Forero", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "This talk is aimed for basic and medium level programes who want to learn new ways to think and use functions.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "6d166fdc-9e1f-413c-a13a-4cba9dbab150", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Going all function (functional programing with Python)", 
+            "speaker": "Eduardo Galeano", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "Deep Learning is one of the most exciting topics in the world of technology today as it is giving the machines the ability to perform advanced cognitive tasks. Google is one of the companies that has recognized this and has invested millions to create TensorFlow, a distributed computing library capable of running complex tasks of Deep Learning. In this talk we will see the fundamentals of Deep Learning and how to start with TensorFlow", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "7e1aa834-9af1-4051-bf6d-30a1aef9086e", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Introduccion to Deep Learning with TensorFlow", 
+            "speaker": "Cristian Garc´ıa", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "A basic introduction to web development with Flask, a Python microframework. In this workshop attendees will learn how to connect to a database like MariaDB and the basic structure of a Flask app.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "de01fcc9-f5b0-48bc-8dee-ef4337807a7c", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Flask: Introduction to Python for Web", 
+            "speaker": "Mario Garc´ıa", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "In this speach, the author will shows how Python can be used to develope Web, Big Data, and Analytical apps. Also, he will covers how is it uses to develope APIs through Google App Engine Applicacion and how is used in the development of new technologies like self-driving car. It is important to mention, that this speach has both business and technical approach, so there will be topics like cost of implementation, and training but also a live code demo.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "644b77ad-2024-4ec9-a8cb-32e09b19a20a", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Python as a reliable platform for business innovation", 
+            "speaker": "Andr´es Guijarro", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "¿Alguna vez so˜naste con viajar y trabajar? ¿En dejarlo todo y perseguir tu sue˜no? ¿o llevar la programaci´on a los lugares m´as rec´onditos? En esta charla se hablar´a sobre la experiencia de llevar Python a m´as de 100 ciudades en 8 pa´ıses de Latinoam´erica durante los ´ultimos 3 a˜nos. Peque˜nas historias, problemas cotidianos, ´exitos y fracasos, eventos realizados y la gran comunidad Python a nivel internacional ser´an los t´opicos de la charla. Esta charla fue Keynote en PyCon Espa˜na 2016 realizada en Octubre", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "27b1740a-f1d4-4f67-9f9e-940c812c5e19", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Argentina en Python: Comunidad, sue˜nos, viajes y aprendizaje", 
+            "speaker": "Manuel Kauffmann", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "Always find yourself installing dozens of different checkers and figuring out how to run them with CI of your choice? Are you using more than one language and you find it hard to remember all available tools for static analysis? Would you like to define your own checks as easy as possible? Meet coala.io, it feeds on your code and makes it better at the same time.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "7a61d48a-796a-4c91-8121-66adf8796535", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Feed your code to Coala ", 
+            "speaker": "Robert Kuska", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "In machine learning and natural language processing, a topic model is a type of statistical model for discovering the abstract ”topics” that occur in a collection of documents. Topic modeling is a frequently used text-mining tool for discovery of hidden semantic structures in a text body. We will survey two of the most used methods: NMF(nonnegative matrix factorization) and LDA (Latent Dirichlet Allocation) and their corresponding implementations in scikit.learn.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "18e008b4-fe8f-42c1-a309-f55d4dc3f4bf", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Unsupervised Topic Modeling in Text Corpora and an effi- cient bag of phrases representation", 
+            "speaker": "Fabian Latorre", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "Django channels puede considerarse como la mejora m´as signi- ficativa a Django en mucho tiempo, adapt´andolo a la nueva forma de ver la Web. Esta charla busca ser una motivaci´on a usar django-channels: una breve introducci´on, su funcionamiento, algunos ejemplos, y una comparaci´on con otras herramientas para manejo de sockets.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "d7c44737-e4e9-4153-a79e-650748a6c6ee", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Django channels - WebSockets and HTTP2 with Django", 
+            "speaker": "Rafael Laverde", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "What do the following technologies have in common: robots that can navigate space and perform duties, search engines that can index billions of images and videos, algorithms that can diagnose medical images for diseases, or smart cars that can see and drive safely? Lying in the heart of these modern AI applications are computer vision technologies that can perceive, understand and reconstruct the complex visual world. This talk is designed to open the doors for people who are interested in learning about the fundament", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "bb41c7f0-1d3d-436d-b20b-9329e16f638f", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Image Processing and Computer Vision", 
+            "speaker": "Jorge Mart´ınez", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "Una charla acerca de c´omo armar una aplicaci´on avanzada con Flask con todas las funcionalidades que se espera de un framework maduro, y c´omo construir las que hagan falta.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "1cbafdad-f121-4421-b07c-8ac0eb6fabf4", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Flask - con todas las arandelas ", 
+            "speaker": "Vera Mazhuga", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "Learn to use different python libraries to analyze geo-spatial data.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "3c1e7ec4-052f-4414-8bd2-c965301f0b4e", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Using python to analyze spatial data", 
+            "speaker": "Juan Carlos M´endez", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "Airflow is a platform built in Python to programmatically author, schedule and monitor workflows, in particular ETL jobs. In this talk we give a brief motivation to use a framework for managing workflows (ETL in particular) and present our experience with Airflow in production along with the basics of Airflow: DAGs, Operators, the web UI, the Scheduler and basic deployment process", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "edff16d4-bf26-4d1d-82e3-eb7906b25416", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Moving and Transforming Data with Airflow", 
+            "speaker": "Daniel Moreno", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "It would likes to encourage developers to contribute to open source projects.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "81b153dd-e1a9-41e5-b4ef-31bf4733e9e9", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Jazzband ", 
+            "speaker": "Camilo Nova", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "Self driving cars are here and Python has a leading role in several of the open source solutions out there. In this talk the author will presents an overview on how python is involved at each level (CAN bus, lane detection, traffic sign recognition, steering using deep learning frameworks like Keras and Tensor- flow).", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "9d374ba3-b90c-43e6-8131-6a9ee0c21028", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Hacking my car with Python", 
+            "speaker": "Ariel Nu˜nez", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "Gevent es una gran herramienta para la creaci´on de workers en proceso as´ıncrono. En esta charla el autor mostrar´a c´omo empezar, conceptos basicos de as´ıncronismo y como trabajar con Gevent en un caso real.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "38657927-a275-4b13-af92-de2b736ac74d", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Introducci´on al Gevent ", 
+            "speaker": "Vinicius Pacheco", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "En esta charla se har´a una introducci´on a las librer´ıas gr´aficas para la visualizaci´on de datos y creaci´on de aplicaciones din´amicas con controles interactivos", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "4adb1896-d950-42f2-bfe6-266ad3b06748", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Introducci´on a las herramientas para visualizaci´on de datos con Python", 
+            "speaker": "Diego Pe˜na", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "Qt (C++) is a cross-platform application framework that is widely used for developing application software that can be run on various software and hardware platforms with little or no change in the underlying codebase, while still being a native application with native capabilities and speed. All the power of Qt can be harnessed in other languages through the several bindings that exist. Python bindings include PyQt/PySide and allow for the creation of Cross platform desktop applications with much fewer lines of code plus integrations with all the python stack", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "f4c5342e-3c22-4c07-ac2a-64226332db16", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Building Cross Platform Desktop Applications with Python and Qt", 
+            "speaker": "Gonzalo Pe˜na", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "Celery is an asynchronous task queue/job queue based on distributed message passing. It’s a framework/system for building distributed systems that communicate with each other, sending tasks to workers that enables a lot of flexibility developing complex system. Is this talk the author will shows how Celery allows very complex task scheduling options, including chained tasks, several queues, etc.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "39697acd-6db7-4a1e-96ae-a85058946ffd", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Introduction to Celery for distributed Python development with responsive results (using Docker)", 
+            "speaker": "Sebasti´an Ram´ırez", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "Tornado un framework web para construir servicios as´ıncronos en un solo hilo de ejecuci´on usando gestores de contexto. El workshop tiene una parte te´orica sobre python as´ıncrono (generadores, corrutinas, funciones non-blocking), una sesi´on para construir y testear un servicio web asincrono b´asico con Tornado, una api-rest, un servicio de websockets, un breaker mqtt para aplicaci´ones de internet de las cosas, y finalmente el despliegue con supervisord y nginx", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "141f38f5-bd8b-4e89-ac0e-fedf23bd971f", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Tornado: Web as´ıncrona de alto desempe˜no", 
+            "speaker": "Pedro Rivera", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "La Charla ser´a sobre la arquitectura de OpenEdX, como esta construido su LMS, CMS, breve introducci´on sobre el framework Xblock (framework construido sobre django), django apps de mayor reelevancia dentro de la plataforma, y experiencia del caso de exito de OpenEdX en una universidad.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "9eafa938-c779-4b4b-a11f-a9b2253814c7", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Arquitectura de OpenEdX ", 
+            "speaker": "Cristian Salamea", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "¿Sab´ıas que el Arabe tiene 6 formas de plural? Cosas como esas ´ son las que te encuentras al programar una biblioteca de internacionalizaci´on y localizaci´on para aplicaciones web en Python que NO dependa de gettext. En esta charla se hablar´a sobre este tema y lo genial que es poder contar con Babel.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "f82282d7-d579-4777-a2b4-40716d33d9f3", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Internacionalizaci´on pyth´onica inspirada en Rails", 
+            "speaker": "Juan Scaletti", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "Artificial intelligence has seen a huge boost in the past couple of years, bigger datasets and more computing power available make a lot of applications like translation, mass scale classifi- cation and tracking possible. In this talk, we present a python based tool developed by MIT called Vatic that is used to track and classify objects in video. We also share our experience annotating different datasets and how it has helped unemployed people in Colombia with temporary well paid gigs. Similarly, we will share our latest research into using Console controllers with ReactJS to gamify the process and allow people to annotate datasets from their couches.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "d7ba0cbf-0b3f-40b1-a850-c889d93bc404", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Teaching computers how to understand our world", 
+            "speaker": "Lennin Suescun", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "Docker es un gran software que ha cambiado nuestra experiencia como desarrolladores en diferentes empresas. Esta charla est´a enfocada a dar una introducci´on a Docker, y mostrarle a los asistentes como pueden empezar a usar Docker para sus proyectos en Django.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "3f96478f-e78a-49bb-ad65-534aee4ef208", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "From Virtualenv to Docker in Django", 
+            "speaker": "Pablo Vallejo", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
+            "avatar": ""
+        }, 
+        {
+            "bio": "", 
+            "description": "Python como lenguaje de alto nivel permite desarrollar herramientas espec´ıficas para las necesidades biol´ogicas, incluso cuenta con librer´ıas propias para el manejo y an´alisis de estos datos, tales como biopython, bioservice, y pymol, que permiten a un profesional no programador desarrollar herramientas que se ajusten a sus necesidades, como el entendimiento de la relaci´on entre una variaci´on gen´etica a una enfermedad, o teorizar la estructura 3D de una prote´ına hasta la interpretaci´on de rutas metab´olicas de los organismos.", 
+            "end_date": "16.2.", 
+            "start_time": "13:00", 
+            "active": true, 
+            "id": "df3da360-e402-4308-8c14-1462b8b493b9", 
+            "votes": [
+                ""
+            ], 
+            "twitter": null, 
+            "title": "Python en Bioinform´atica", 
+            "speaker": "Jenifer V´elez", 
+            "end_time": "13:30", 
+            "type": "talk", 
+            "start_date": "16.2.", 
             "avatar": ""
         }
     ]

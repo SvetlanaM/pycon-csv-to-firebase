@@ -1,11 +1,11 @@
 {
   "config":{
-     "pycon_name":"PyCon Zimbabwe",
-     "pycon_logo":"https://trello-attachments.s3.amazonaws.com/52589bca65b0b14e1d004d94/581efa2dafc1d1f2ca807a35/486a94c8f0a12c5159adb3dd7e399d65/pycon_overlay_zim.png",
-     "pycon_color":"#feb500",
-     "twitter_hashtag":"#pyconzim",
+     "pycon_name":"PyCon Colombia 2017",
+     "pycon_logo":"https://trello-attachments.s3.amazonaws.com/52589bca65b0b14e1d004d94/581efa2dafc1d1f2ca807a35/79396e77cf3750ce88c3db621a4b91ff/logo_pycon_colombia_overlay.png",
+     "pycon_color":"#f55164",
+     "twitter_hashtag":"#pyconcolombia",
      "facebook_mention" : "",
-     "pycon_db":"pycon_zim2016",
+     "pycon_db":"pycon_colombia2017",
      "active":true
   }
 }

@@ -16,7 +16,7 @@ if __name__ == '__main__':
         with open('mapping.json', 'r') as outfile:
             data_config = json.loads(outfile.read())
 
-        with open(file_name + '.csv', 'rb') as infile, open(file_name + '-out.csv', 'wb') as outfile:
+        with open(file_name + '.csv', 'r') as infile, open(file_name + '-out.csv', 'w') as outfile:
             reader = csv.reader(infile)
             writer = csv.writer(outfile)
             for row in reader:
