@@ -2,6 +2,9 @@
 
 This code is responsible for sending data in correct format to [Firebase](https://firebase.google.com/) database which is used as backend for PyCon mobile app. 
 
+### APIARY DOCUMENTATION
+[Apiary](http://docs.pycon.apiary.io/#reference/0/config-collection/config)
+
 ### Requirements
 1. Python 3.4 || Python 3.5
 2. [pip](https://pypi.python.org/pypi/pip/1.0.2) - tool for installing and managing Python packages
@@ -51,8 +54,7 @@ You can define these types:
 
 1. Workshop
 2. Talk
-3. Break
-4. Other (afterparty, lighting talks, ...)
+3. Event (afterparty, lighting talks, lunch, coffee break,...)
 
 ## ToDo
 1. Import csv files to Amazon S3 Storage
