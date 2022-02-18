@@ -1,7 +1,7 @@
 {
   "config":{
      "pycon_name":"PyCon Colombia 2017",
-     "pycon_logo":"https://trello-attachments.s3.amazonaws.com/52589bca65b0b14e1d004d94/581efa2dafc1d1f2ca807a35/79396e77cf3750ce88c3db621a4b91ff/logo_pycon_colombia_overlay.png",
+     "pycon_logo":"",
      "pycon_color":"#f55164",
      "twitter_hashtag":"#pyconcolombia",
      "facebook_mention" : "",
